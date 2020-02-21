@@ -31,7 +31,7 @@ public class Construction {
 					total_cost = 2500 * house_area;
 					break;
 				default:
-					p.println("Please choose from 1-4");
+					p.println("Select from 1-4");
 				}
 				if (total_cost != -1) p.println("Cost of building the house in rupees is : " + total_cost);
 			} catch (Exception e) {
