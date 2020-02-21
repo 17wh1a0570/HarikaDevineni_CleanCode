@@ -3,7 +3,7 @@ import java.io.*;
 import java.util.Scanner;
 
 public class SI_CI {
-	public static void main(String args[]) {
+	public static void si_ci() {
 		PrintStream print = new PrintStream(new FileOutputStream(FileDescriptor.out));
 		Scanner scan = new Scanner(System.in);
 		try {
